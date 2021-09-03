@@ -17,7 +17,7 @@ desired_cap = {
 
 username = os.environ.get('BROWSERSTACK_USERNAME')
 password = os.environ.get('BROWSERSTACK_ACCESS_KEY')
-desired_cap['build'] = os.environ.get('BROWSERSTACK_BUILD_NAME')
+#desired_cap['build'] = os.environ.get('BROWSERSTACK_BUILD_NAME')
 driver = webdriver.Remote(
     command_executor='https://' + username + ':' + password + '@hub-cloud.browserstack.com/wd/hub',
     desired_capabilities=desired_cap)
