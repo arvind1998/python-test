@@ -11,8 +11,7 @@ desired_cap = {
  'browser': 'Chrome',
  'browser_version': '88.0',
  'os': 'Windows',
- 'name': 'BStack-[Python] Sample Test',
- 'browserstack.local': 'true'# test name
+ 'name': 'BStack-[Python] Sample Test'
 
 }
 
